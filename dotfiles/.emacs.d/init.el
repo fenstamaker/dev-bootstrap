@@ -1,6 +1,16 @@
 (require 'package)
-(package-initialize)
+
+(setq package-list '(undo-tree smartparens helm web-mode cider company flycheck rainbow-delimiters-mode))
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+(package-initialize)
+
+(unless package-archive-contents
+    (package-refresh-contents))
+    
+(dolist (package package-list)
+    (unless (package-install-p package)
+        (package-install package)))
 
 ; === Funnies ===
 
