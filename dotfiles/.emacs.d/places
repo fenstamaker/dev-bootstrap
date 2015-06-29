@@ -1,0 +1,6 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/fenstamaker/Dropbox (Personal)/test.org" . 12)
+ ("/Users/fenstamaker/Dropbox/"
+  (dired-filename . "/Users/fenstamaker/Dropbox/Expense Report EXP512073.pdf"))
+ ("/Users/fenstamaker/dev-bootstrap/dotfiles/.emacs.d/init.el" . 5434)
+ ("/Users/fenstamaker/.recentf" . 1406))
